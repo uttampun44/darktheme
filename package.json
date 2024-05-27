@@ -1,0 +1,27 @@
+{
+  "name": "darktheme",
+  "displayName": "darktheme",
+  "description": "Reduces eye strain during long coding sessions",
+  "version": "0.0.1",
+  "publisher": "uttam",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "darktheme",
+    "darktheme developer",
+    "developer theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
